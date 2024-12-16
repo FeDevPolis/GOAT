@@ -32,12 +32,7 @@
                         <a class="boton-menu boton-volver" href="./index.html">
                             <i class="bi bi-arrow-return-left"></i> Seguir comprando
                         </a>
-                    </li>
-                    <li>
-                        <a class="boton-menu boton-carrito active" href="./carrito.html">
-                            <i class="bi bi-cart-fill"></i> Carrito
-                        </a>
-                    </li>
+                    </li>                    
                 </ul>
             </nav>
             <footer>
@@ -45,36 +40,30 @@
             </footer>
         </aside>
         <main>
-            <h2 class="titulo-principal">Carrito</h2>
-            <div class="contenedor-carrito">
-                <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacío. <i class="bi bi-emoji-frown"></i></p>
-
-                <div id="carrito-productos" class="carrito-productos disabled">
-                    <!-- Esto se va a completar con el JS -->
-                </div>
-
-                <div id="carrito-acciones" class="carrito-acciones disabled">
-                    <div class="carrito-acciones-izquierda">
-                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
-                    </div>
-                    <div class="carrito-acciones-derecha">
-                        <div class="carrito-acciones-total">
-                            <p>Total:</p>
-                            <p id="total">$3000</p>
-                        </div>
-                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
-                    </div>
-                </div>
-
-                <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i class="bi bi-emoji-laughing"></i></p>
-                <img src="./assets/air.jpg" alt="Michael Jordan Dunk Contest">
-            </div>
+            <h2 class="titulo-principal">Contacto</h2>
+            <div class="form">
+                <form class="form-container" action="https://formspree.io/f/mwpkdlwz" method="POST">
+                    <label>                        
+                        <input type="name" name="name" placeholder="Nombre">
+                    </label>
+                    <label>                        
+                        <input type="email" name="email" placeholder="Email">
+                    </label>
+                    <label>
+                        <textarea name="message" placeholder="Mensaje"></textarea>
+                    </label>
+                      <!-- your other form fields go here -->
+                    <button type="submit">Enviar</button>
+                </form>                
+            </div>    
+            <div class="videocontacto">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yjR6Q4FspFc?si=QWLtvgUweXrzYsiL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>       
+            </div>            
         </main>
     </div>
     
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="./js/carrito.js"></script>
     <script src="./js/menu.js"></script>
 </body>
 </html>

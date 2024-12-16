@@ -43,7 +43,6 @@ function cargarProductos(productosElegidos) {
     actualizarBotonesAgregar();
 }
 
-
 botonesCategorias.forEach(boton => {
     boton.addEventListener("click", (e) => {
 
@@ -55,9 +54,27 @@ botonesCategorias.forEach(boton => {
             tituloPrincipal.innerText = productoCategoria.categoria.nombre;
             const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
             cargarProductos(productosBoton);
-        }else{
+        }else if (e.currentTarget.id === "contact"){
+            tituloPrincipal.innerText = "Contacto";
+            contenedorProductos.innerHTML = `
+            <div id="form-contacto">            
+                <form action="#" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+        
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            `;
+        }else {
             tituloPrincipal.innerText = "Todos los productos";
-            cargarProductos(productos);
+            cargarProductos(productos);            
         }
 
     })
