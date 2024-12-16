@@ -128,14 +128,26 @@ function actualizarNum() {
 const videoModal = document.getElementById("videoModal");
 const closeBtn = document.getElementById("closeBtn");
 const popupVideo = document.getElementById("popupVideo");
+const pageAudio = document.getElementById("pageAudio");
 
 // Cuando la página carga, muestra el modal
 window.onload = function () {
     videoModal.style.display = "flex";
+    pageAudio.pause();
+    pageAudio.currentTime = 0;
 };
 
 // Cerrar el modal cuando se hace clic en la "X"
 closeBtn.onclick = function () {
     videoModal.style.display = "none";
     popupVideo.pause(); // Pausar el video
+    pageAudio.onplay(); // Arranca el audio de la web
 };
+
+window.onclick = function(event){
+    if(event.target === videoModal){
+        videoModal.style.display = "none";
+        popupVideo.pause();
+        pageAudio.play();
+    }
+}
