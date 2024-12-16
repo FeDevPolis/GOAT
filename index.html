@@ -13,7 +13,7 @@
 <body>  
     <div class="wrapper">
         <header class="header-mobile">
-            <h1 class="logo">The GOAT Shop</h1>
+            <h1 class="logo">the</h1><br><h1 class="logomain">GOAT</h1><br><h1 class="logo">shop</h1>
             <button class="open-menu" id="open-menu">
                 <i class="bi bi-list"></i>
             </button>
@@ -31,7 +31,7 @@
                         <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb"></i> Todos los productos</button>
                     </li>
                     <li>
-                        <button id="city" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> City Edition Jerseys</button>
+                        <button id="city" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> City Edition 2024/25 Jerseys</button>
                     </li>
                     <li>
                         <button id="classic" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Hardwood Classic Jerseys</button>
@@ -45,7 +45,7 @@
             </nav>
             <footer>
                 <audio controls autoplay loop>
-                    <source src="/assets/sirius.mp3" type="audio/mp3">        
+                    <source src="./assets/sirius.mp3" type="audio/mp3">        
                 </audio>
                 <p class="texto-footer">© 2024 <a href="https://github.com/FeDevPolis" title="Sitio de FeDevPolis">FeDevPolis</a></p>                
             </footer>
@@ -57,7 +57,15 @@
             </div>
         </main>
     </div>
-    
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeBtn">&times;</span>
+            <video id="popupVideo" controls autoplay>
+                <source src="/assets/spot.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+    </div>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="/js/main.js"></script>
     <script src="/js/menu.js"></script>

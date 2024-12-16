@@ -4,7 +4,7 @@
         "titulo": "Atlanta Hawks",
         "imagen": "../assets/city01.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -14,7 +14,7 @@
         "titulo": "Boston Celtics",
         "imagen": "../assets/city02.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -24,7 +24,7 @@
         "titulo": "Brooklyn Nets",
         "imagen": "../assets/city03.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -34,7 +34,7 @@
         "titulo": "Charlotte Hornets",
         "imagen": "../assets/city04.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -44,7 +44,7 @@
         "titulo": "Chicago Bulls",
         "imagen": "../assets/city05.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -54,7 +54,7 @@
         "titulo": "Cleveland Cavaliers",
         "imagen": "../assets/city06.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -64,7 +64,7 @@
         "titulo": "Dallas Mavericks",
         "imagen": "../assets/city07.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -74,7 +74,7 @@
         "titulo": "Denver Nuggets",
         "imagen": "../assets/city08.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -84,7 +84,7 @@
         "titulo": "Detroit Pistons",
         "imagen": "../assets/city09.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -94,7 +94,7 @@
         "titulo": "Golden State Warriors",
         "imagen": "../assets/city10.jpg",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -104,7 +104,7 @@
         "titulo": "Houston Rockets",
         "imagen": "../assets/city11.jpg",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -114,7 +114,7 @@
         "titulo": "Indiana Pacers",
         "imagen": "../assets/city12.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -124,7 +124,7 @@
         "titulo": "Los Angeles Clippers",
         "imagen": "../assets/city13.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -134,7 +134,7 @@
         "titulo": "Los Angeles Lakers",
         "imagen": "../assets/city14.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -144,7 +144,7 @@
         "titulo": "Memphis Grizzlies",
         "imagen": "../assets/city15.jpg",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -154,7 +154,7 @@
         "titulo": "Miami Heat",
         "imagen": "../assets/city16.jpg",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -164,7 +164,7 @@
         "titulo": "Milwaukee Bucks",
         "imagen": "../assets/city17.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -174,7 +174,7 @@
         "titulo": "Minnesota Timberwolves",
         "imagen": "../assets/city18.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -184,7 +184,7 @@
         "titulo": "New Orleans Pelicans",
         "imagen": "../assets/city19.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -194,7 +194,7 @@
         "titulo": "New York Knicks",
         "imagen": "../assets/city20.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -204,7 +204,7 @@
         "titulo": "Oklahoma City Thunder",
         "imagen": "../assets/city21.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -214,7 +214,7 @@
         "titulo": "Orlando Magic",
         "imagen": "../assets/city22.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -224,7 +224,7 @@
         "titulo": "Philadelphia 76ers",
         "imagen": "../assets/city23.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -234,7 +234,7 @@
         "titulo": "Phoenix Suns",
         "imagen": "../assets/city24.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -244,7 +244,7 @@
         "titulo": "Portland Trail Blazers",
         "imagen": "../assets/city25.jpg",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -254,7 +254,7 @@
         "titulo": "Sacramento Kings",
         "imagen": "../assets/city26.jpg",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -264,7 +264,7 @@
         "titulo": "San Antonio Spurs",
         "imagen": "../assets/city27.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -274,7 +274,7 @@
         "titulo": "Toronto Raptors",
         "imagen": "../assets/city28.jpg",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -284,7 +284,7 @@
         "titulo": "Utah Jazz",
         "imagen": "../assets/city29.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000
@@ -294,7 +294,7 @@
         "titulo": "Washington Wizards",
         "imagen": "../assets/city30.avif",
         "categoria": {
-            "nombre": "City Edition Jerseys",
+            "nombre": "City Edition 2024/25 Jerseys",
             "id": "city"
         },
         "precio": 75000

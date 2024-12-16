@@ -55,7 +55,7 @@ botonesCategorias.forEach(boton => {
             tituloPrincipal.innerText = productoCategoria.categoria.nombre;
             const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
             cargarProductos(productosBoton);
-        } else {
+        }else{
             tituloPrincipal.innerText = "Todos los productos";
             cargarProductos(productos);
         }
@@ -124,3 +124,18 @@ function actualizarNum() {
     let nuevoNum = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
     num.innerText = nuevoNum;
 }
+
+const videoModal = document.getElementById("videoModal");
+const closeBtn = document.getElementById("closeBtn");
+const popupVideo = document.getElementById("popupVideo");
+
+// Cuando la página carga, muestra el modal
+window.onload = function () {
+    videoModal.style.display = "flex";
+};
+
+// Cerrar el modal cuando se hace clic en la "X"
+closeBtn.onclick = function () {
+    videoModal.style.display = "none";
+    popupVideo.pause(); // Pausar el video
+};
