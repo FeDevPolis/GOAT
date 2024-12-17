@@ -68,7 +68,7 @@ aside {
     background-color: transparent;
     border: 0;
     color: var(--clr-white);
-    cursor: url('../assets/cursor.png') 8 1, auto;
+    cursor: url('../assets/cursor.png') 10 5, auto;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -138,11 +138,11 @@ aside {
 }
 
 body {
-    cursor: url('../assets/cursor.png') 8 1, auto;
+    cursor: url('../assets/cursor.png') 10 5, auto;
 }
 
 .player {
-    cursor: url('../assets/cursor.png') 8 1, auto;
+    cursor: url('../assets/cursor.png') 10 5, auto;
 }
 
 main {
@@ -192,7 +192,7 @@ main {
     padding: .4rem;
     text-transform: uppercase;
     border-radius: 2rem;
-    cursor: url('../assets/cursor.png') 8 1, auto;
+    cursor: url('../assets/cursor.png') 10 5, auto;
     border: 2px solid var(--clr-white);
     transition: background-color .2s, color .2s;
 }
@@ -200,7 +200,7 @@ main {
 .producto-agregar:hover {
     background-color: var(--clr-main);
     color: var(--clr-white);
-    cursor: url('../assets/cursor.png') 8 1, auto;
+    cursor: url('../assets/cursor.png') 10 5, auto;
 }
 
 
@@ -245,7 +245,7 @@ main {
     border: 0;
     background-color: transparent;
     color: var(--clr-red);
-    cursor: url('../assets/cursor.png') 8 1, auto;
+    cursor: url('../assets/cursor.png') 10 5, auto;
 }
 
 .carrito-acciones {
@@ -260,7 +260,7 @@ main {
     border-radius: 1rem;
     color: var(--clr-main);
     text-transform: uppercase;
-    cursor: url('../assets/cursor.png') 8 1, auto;
+    cursor: url('../assets/cursor.png') 10 5, auto;
 }
 
 .carrito-acciones-derecha {
@@ -284,7 +284,7 @@ main {
     padding: 1rem;
     color: var(--clr-white);
     text-transform: uppercase;
-    cursor: url('../assets/cursor.png') 8 1, auto;
+    cursor: url('../assets/cursor.png') 10 5, auto;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
@@ -371,7 +371,7 @@ main {
         color: var(--clr-gray);
         border: 0;
         font-size: 2rem;
-        cursor: url('../assets/cursor.png') 8 1, auto;
+        cursor: url('../assets/cursor.png') 10 5, auto;
     }
 
     .close-menu {
@@ -442,7 +442,7 @@ video {
     right: 15px;
     font-size: 2rem;
     color: #fff;
-    cursor: url('../assets/cursor.png') 8 1, auto;
+    cursor: url('../assets/cursor.png') 10 5, auto;
     z-index: 10;
     transition: color 0.3s ease;
 }
@@ -452,7 +452,7 @@ video {
 }
 
 .contenedor-contacto {
-    cursor: url('../assets/cursor.png') 8 1, auto;
+    cursor: url('../assets/cursor.png') 10 5, auto;
 }
 
 .form{
@@ -506,10 +506,24 @@ video {
     background-color: #007BFF; 
     color: var(--clr-white); 
     border: none; 
-    cursor: url('../assets/cursor.png') 8 1, auto; 
+    cursor: url('../assets/cursor.png') 10 5, auto; 
     transition: background-color 0.3s; 
 }
 
 .form-container button:hover {
     background-color: #0056b3; 
+}
+
+.contenedor-banner {
+    width: 100%; /* El banner ocupa todo el ancho del main */
+    height: auto; /* Altura dinámica basada en el contenido */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+}
+
+.banner-img {
+    max-width: 100%; /* La imagen se ajusta al contenedor */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 1rem; /* Opcional: bordes redondeados */
 }
