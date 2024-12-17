@@ -204,8 +204,6 @@ main {
 }
 
 
-/** CARRITO **/
-
 .contenedor-carrito {
     display: flex;
     flex-direction: column;
@@ -303,7 +301,6 @@ main {
     display: none;
 }
 
-/*** MEDIA QUERIES ***/
 
 @media screen and (max-width: 850px) {
     .contenedor-productos {
@@ -399,10 +396,7 @@ main {
         flex-wrap: wrap;
         row-gap: 1rem;
     }
-    
-
 }
-
 
 @media screen and (max-width: 400px) {
     .contenedor-productos {
@@ -410,7 +404,6 @@ main {
     }
 }
 
-/* Estilo del modal */
 .modal {
     display: flex;
     align-items: center;
@@ -420,31 +413,29 @@ main {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+    background-color: rgba(0, 0, 0, 0.8); 
     z-index: 1000;
-    overflow: auto; /* Permite scroll si el contenido es demasiado grande */    
+    overflow: auto;     
 }
 
-/* Contenedor del video */
 .modal-content {
     position: relative;
     background: #000;
     border-radius: 8px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    width: auto; /* Se ajusta al tamaño del contenido */
-    max-width: 75%; /* No supera el 90% del ancho de la pantalla */
-    max-height: 100%; /* No supera el 90% de la altura de la pantalla */
+    width: auto; 
+    max-width: 75%; 
+    max-height: 100%; 
     overflow: hidden;
 }
 
 /* Video responsivo */
 video {
     display: block;
-    width: 100%; /* El video se ajusta al contenedor */
-    height: auto; /* Mantiene la proporción original */
+    width: 100%; 
+    height: auto; 
 }
 
-/* Botón de cerrar */
 .close {
     position: absolute;
     top: 10px;
@@ -474,13 +465,6 @@ video {
     position: relative;
 }    
 
-.form-container{
-    width: 100%;
-    display: grid;
-    gap: 0.5em;
-    grid-template-columns: 100%;
-}
-
 .video-container{
     position: relative;
     width: 100%;
@@ -497,4 +481,35 @@ video {
     width: 100%;
     height: 100%;
     border: 0;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    max-width: 500px; 
+    margin: 0 auto; 
+}
+
+.form-container input,
+.form-container textarea,
+.form-container button {
+    width: 100%; 
+    box-sizing: border-box; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid var(--clr-gray); 
+    border-radius: 5px; 
+}
+
+.form-container button {
+    background-color: #007BFF; 
+    color: var(--clr-white); 
+    border: none; 
+    cursor: url('../assets/cursor.png') 8 1, auto; 
+    transition: background-color 0.3s; 
+}
+
+.form-container button:hover {
+    background-color: #0056b3; 
 }
